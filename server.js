@@ -9,8 +9,8 @@ app.use(express.json());
 
 const db = mysql.createConnection({
   host: "aws.connect.psdb.cloud",
-  user: "uwgzhv0c89to4py7y1ba",
-  password: "pscale_pw_jh4VxYkks6G8YhZ80HLkrZHo2Mhj3eyrZ6lNlug6bHb",
+  user: "9wz5zhi97ie9889hyrz3",
+  password: "pscale_pw_TKnRJdPXVRJ83ZfcbhJV3cIIlt7TKiDtSIXl9pJBqCM",
   database: "ne-instagram-database",
 });
 
