@@ -9,8 +9,8 @@ app.use(express.json());
 
 const db = mysql.createConnection({
   host: "aws.connect.psdb.cloud",
-  user: "9wz5zhi97ie9889hyrz3",
-  password: "pscale_pw_TKnRJdPXVRJ83ZfcbhJV3cIIlt7TKiDtSIXl9pJBqCM",
+  user: "qxbxpdz7nx79w7v2304u",
+  password: "pscale_pw_7Yp16rozwH7dgRE0XxLaSS9i2PGcR2IsRog9hu0vNwe",
   database: "ne-instagram-database",
 });
 
@@ -96,6 +96,10 @@ app.post("/user", (req, res) => {
     }
     return res.json(data);
   });
+});
+
+app.get("/", (req, res) => {
+  console.log(req);
 });
 
 app.listen(3001, (req, res) => {
