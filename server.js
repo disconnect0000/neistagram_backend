@@ -8,10 +8,10 @@ app.use(cors());
 app.use(express.json());
 
 const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "littleSocialMedia",
+  host: "aws.connect.psdb.cloud",
+  user: "uwgzhv0c89to4py7y1ba",
+  password: "pscale_pw_jh4VxYkks6G8YhZ80HLkrZHo2Mhj3eyrZ6lNlug6bHb",
+  database: "ne-instagram-database",
 });
 
 app.post("/users/register", (req, res) => {
